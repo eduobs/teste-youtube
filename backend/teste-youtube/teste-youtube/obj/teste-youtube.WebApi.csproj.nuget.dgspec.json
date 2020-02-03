@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube\\teste-youtube.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube.ApiModel\\teste-youtube.ApiModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube.ApiModel\\teste-youtube.ApiModel.csproj",
+        "projectName": "teste-youtube.ApiModel",
+        "projectPath": "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube.ApiModel\\teste-youtube.ApiModel.csproj",
+        "packagesPath": "C:\\Users\\eduardobos\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube.ApiModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardobos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube\\teste-youtube.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube\\teste-youtube.WebApi.csproj",
+        "projectName": "teste-youtube.WebApi",
+        "projectPath": "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube\\teste-youtube.WebApi.csproj",
+        "packagesPath": "C:\\Users\\eduardobos\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardobos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube.ApiModel\\teste-youtube.ApiModel.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\Estudos\\teste-youtube\\backend\\teste-youtube\\teste-youtube.ApiModel\\teste-youtube.ApiModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.43.0, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.43.0, )"
+            },
+            "Google.Apis.Core": {
+              "target": "Package",
+              "version": "[1.43.0, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.43.0.1834, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0-preview1-19509-03, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

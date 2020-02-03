@@ -1,0 +1,5 @@
+C:\Desenvolvimento\Estudos\teste-youtube\backend\teste-youtube\teste-youtube\obj\Debug\netcoreapp3.1\teste-youtube.csprojAssemblyReference.cache
+C:\Desenvolvimento\Estudos\teste-youtube\backend\teste-youtube\teste-youtube\obj\Debug\netcoreapp3.1\staticwebassets\teste-youtube.StaticWebAssets.Manifest.cache
+C:\Desenvolvimento\Estudos\teste-youtube\backend\teste-youtube\teste-youtube\obj\Debug\netcoreapp3.1\staticwebassets\teste-youtube.StaticWebAssets.xml
+C:\Desenvolvimento\Estudos\teste-youtube\backend\teste-youtube\teste-youtube\obj\Debug\netcoreapp3.1\teste-youtube.AssemblyInfoInputs.cache
+C:\Desenvolvimento\Estudos\teste-youtube\backend\teste-youtube\teste-youtube\obj\Debug\netcoreapp3.1\teste-youtube.AssemblyInfo.cs
